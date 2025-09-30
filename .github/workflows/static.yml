@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Azure Latch | Обучение в Roblox</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Курсы по Azure Latch</h1>
+        <nav>
+            <a href="#trainers">Тренеры</a>
+            <a href="#about">О нас</a>
+            <a href="#contact">Связаться</a>
+            <a href="#game">Посетить игру</a>
+            <a href="#blacklist">Чёрный список</a>
+        </nav>
+    </header>
+
+    <section class="section" id="trainers">
+        <h2>Наши тренеры</h2>
+
+        <div class="card">
+            <h3>Даниэль Эгов</h3>
+            <p><a href="https://www.roblox.com/users/1500998015/profile" target="_blank">Профиль в Roblox</a></p>
+            <p>Голов: 3,500</p>
+            <p>Чему учит: Серьезная атака, полузащита, эгоизм, контроль мяча, дриблинг</p>
+            <button onclick="showModal('modal1')">Подробнее</button>
+        </div>
+
+        <div class="card">
+            <h3>Егор Снаффенко</h3>
+            <p><a href="https://www.roblox.com/users/4374279516/profile" target="_blank">Профиль в Roblox</a></p>
+            <p>Голов: Доhуя</p>
+            <p>Чему учит: Серьезная защита, полузащита</p>
+            <button onclick="showModal('modal2')">Подробнее</button>
+        </div>
+
+        <div class="card">
+            <h3>ДанечкаМару</h3>
+            <p><a href="https://www.roblox.com/users/4026724049/profile" target="_blank">Профиль в Roblox</a></p>
+            <p>Сейвов: 1,000,000</p>
+            <p>Чему учит: Ловить мяч руками и кушать ногами</p>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <h2>О нас</h2>
+        <p>Мы обучаем игре в Azure Latch в Roblox. Наши тренеры — опытные игроки, которые помогут вам научиться контролю, атаке и защите. Все занятия проходят в дружелюбной и соревновательной атмосфере.</p>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Связаться с нами</h2>
+        <p>Вы можете связаться с тренерами через их профили Roblox или написать в Discord (добавим позже).</p>
+    </section>
+
+    <section class="section" id="game">
+        <h2>Посетить игру Azure Latch</h2>
+        <p><a href="https://www.roblox.com/games" target="_blank"><button>Перейти в игру</button></a></p>
+    </section>
+
+    <section class="section" id="blacklist">
+        <h2>Чёрный список игроков</h2>
+
+        <div class="card">
+            <h3>Роман Трусорван</h3>
+            <p><a href="https://www.roblox.com/users/3328464070/profile" target="_blank">Профиль в Roblox</a></p>
+            <p>Причина: Теряет мяч в своей глотке, путая его с бургером</p>
+        </div>
+
+    </section>
+
+    <!-- Модальные окна -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h3>Даниэль Эгов — Подробнее</h3>
+            <p>Тренирует на персонажах: Barou, Sae, Bachira, Isagi/Nel isagi, Nagi, Rin, Kaiser.</p>
+        </div>
+    </div>
